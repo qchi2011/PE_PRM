@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/edit_text_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product or Service"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/edit_text_product_or_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product or Service"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/edit_text_supplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SAVE"
+        android:background="#2196F3"/>
+</LinearLayout>
